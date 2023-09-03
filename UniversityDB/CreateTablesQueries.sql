@@ -1,4 +1,12 @@
-/*********** Create Table ************/
+/************************* CREATE DATABASE *****************************/
+CREATE DATABASE [UniversityDB]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'UniversityDB', FILENAME = N'D:\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\UniversityDB.mdf' , SIZE = 8192KB , FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'UniversityDB_log', FILENAME = N'D:\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\UniversityDB_log.ldf' , SIZE = 8192KB , FILEGROWTH = 65536KB )
+
+/************************* Create Table *************************/
 use UniversityDB
 
 create table Lecture

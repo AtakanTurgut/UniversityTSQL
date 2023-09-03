@@ -8,4 +8,5 @@ To be able to import a downloaded `*.bak` file:
 
 ![](/pictures/ImportBak.gif)
 
+### University Database Diagram
 ![](/UniversityDB/UniversityDiagram.PNG)
